@@ -1,0 +1,1 @@
+while true; do osascript -e 'tell application "System Events"' -e 'set frontApp to name of first application process whose frontmost is true' -e 'end tell' | perl -pe 'use POSIX strftime; print strftime "[%Y-%m-%d %H:%M:%S] ", localtime' >> ~/Desktop/Monitor.log ; sleep 1; done
