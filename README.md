@@ -5,7 +5,7 @@ This file is original work.
 
 
 # Mac OS X Keylogger
-The following code is a work of another user.
+The following code is a work of another user. It has been slightly editted.
 
 This repository holds the code for a simple and easy to use keylogger for Mac OS X. It is not meant to be malicious, and is written as a proof of concept. There is not a lot of information on keyloggers or implementing them on Mac OS X, and most of the ones I've seen do not work as indicated. This project aims to be a simple implementation on how it can be accomplished on OS X.
 
